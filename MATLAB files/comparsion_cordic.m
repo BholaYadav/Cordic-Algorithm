@@ -1,5 +1,5 @@
 clear all;clc;close all;clc;
-data=load('cordic_output.txt');
+data=load('cordic_output.txt');  % Cordic_output file contains the values of cos and sin of angle between 0 to 360  obtained of Vivado simulation of cordic algorithm 
 cos_values=data(:,1)';
 sin_values=data(:,2)';
 
