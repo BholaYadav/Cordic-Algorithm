@@ -1,5 +1,5 @@
 sumWL  = 32; % CORDIC sum word length
-thNorm = -1.0:(2^-4):1.0; % Normalized [-1.0, 1.0] angle values
+thNorm = -1.0:(2^-8):1.0; % Normalized [-1.0, 1.0] angle values
 theta  = fi(thNorm, 1, sumWL); % Fixed-point angle values (best precision)
 
 z_NT   = numerictype(theta);             % Data type for Z
